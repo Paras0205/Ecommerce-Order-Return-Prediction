@@ -15,7 +15,7 @@ st.set_page_config(
 # Load Model
 # ----------------------------
 try:
-    model = joblib.load("model/ecommerce_order_return_prediction_model_v1.pkl")
+    model = joblib.load("Model/ecommerce_order_return_prediction_model_v1.pkl")
 except Exception as e:
     st.error(f"Error loading model: {e}")
     st.stop()
@@ -24,7 +24,7 @@ except Exception as e:
 # Load Dropdown Options
 # ----------------------------
 
-options = joblib.load("model/options.pkl")
+options = joblib.load("Model/options.pkl")
 
 # ----------------------------
 # Arrange Order Days
