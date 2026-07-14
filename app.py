@@ -1,6 +1,8 @@
 import streamlit as st
 import joblib
 import pandas as pd
+import sklearn
+st.write("scikit-learn version:", sklearn.__version__)
 
 # ----------------------------
 # Page Configuration
